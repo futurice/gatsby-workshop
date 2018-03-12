@@ -23,7 +23,6 @@ const Header = ({ title }) => (
     <nav>
       <NavItem to="/about">About me</NavItem>
       <NavItem to="/projects">My projects</NavItem>
-      <NavItem to="/contact">Contact</NavItem>
     </nav>
   </Container>
 );

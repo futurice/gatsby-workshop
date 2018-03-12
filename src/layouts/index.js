@@ -13,15 +13,15 @@ injectGlobal`
   }
 `;
 
-const Wrapper = styled.div`
+const Container = styled.div`
   max-width: 45rem;
   margin: 0 auto;
   padding: 1rem;
   position: relative;
 `;
 
-const TemplateWrapper = ({ children, data }) => (
-  <Wrapper>
+const Layout = ({ children, data }) => (
+  <Container>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -32,14 +32,14 @@ const TemplateWrapper = ({ children, data }) => (
     <Header title={data.site.siteMetadata.title} />
 
     {children()}
-  </Wrapper>
+  </Container>
 );
 
-TemplateWrapper.propTypes = {
+Layout.propTypes = {
   children: PropTypes.func
 };
 
-export default TemplateWrapper;
+export default Layout;
 
 export const query = graphql`
   query LayoutQuery {
