@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Button from "../components/Button";
 
 const ContactPage = () => (
   <div>
@@ -21,7 +22,7 @@ const ContactPage = () => (
         </label>
       </p>
       <p>
-        <button type="submit">Send</button>
+        <Button type="submit">Send</Button>
       </p>
     </form>
   </div>

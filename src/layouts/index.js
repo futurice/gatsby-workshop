@@ -17,6 +17,7 @@ const Wrapper = styled.div`
   max-width: 45rem;
   margin: 0 auto;
   padding: 1rem;
+  position: relative;
 `;
 
 const TemplateWrapper = ({ children, data }) => (
