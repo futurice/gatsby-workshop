@@ -1,4 +1,4 @@
-# Gatsby Workshop Starter
+# gatsby-workshop
 
 A simple Gatsby site for student workshop use.
 
