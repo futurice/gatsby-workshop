@@ -35,7 +35,7 @@ MEIDÄN ympärille! Hitto jengi supporttas ihan sikana! 1! 2!...3! 4! 5! 6!
 Kuus innovaatioiden täyttämää täysin skaalautuvaa visioita yhteen
 hengenvetoon! Hitto!
 
-#Bo-Rister pukkas vuorollaan vaan 5 ei-niin visionääristä platformi-ideaa,
+Bo-Rister pukkas vuorollaan vaan 5 ei-niin visionääristä platformi-ideaa,
 ja sen decki oli aika keskinkertainen, se sais vielä kuulla tästä
 Twitterissä! Sitte oli Ens.ion vuoro! Enska heitti heti vielä 8
 limenväristä PostItiä seinälle! Nyt niitä oli yhteensä melkein 70! EI JUMA!
