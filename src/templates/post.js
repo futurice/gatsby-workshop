@@ -61,9 +61,8 @@ const PostTags = styled.span`
 `;
 
 const MainContent = styled.div`
-
   p {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 `;
 
