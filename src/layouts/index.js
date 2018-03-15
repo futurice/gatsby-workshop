@@ -11,12 +11,16 @@ injectGlobal`
     box-sizing: border-box;
     font-family: sans-serif;
   }
+
+  body {
+    border-top: 5px solid #e74c3c;
+  }
 `;
 
 const Container = styled.div`
   max-width: 45rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   position: relative;
 `;
 

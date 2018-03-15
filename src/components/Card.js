@@ -3,8 +3,6 @@ import Link from "gatsby-link";
 import styled from "styled-components";
 
 const CardLink = styled(Link)`
-  margin-right: 1rem;
-  margin-bottom: 1rem;
   border-radius: 5px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   text-decoration: none;
@@ -56,6 +54,8 @@ const PostHeader = styled.h3`
 
 const PostDate = styled.small`
   font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
 `;
 
 const PostExcerpt = styled.p`

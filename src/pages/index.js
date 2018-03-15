@@ -7,13 +7,20 @@ const HeroImage = styled.img`
 `;
 
 const PostCount = styled.h4`
-  margin: 0;
+  margin-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
 `;
 
 const CardGrid = styled.div`
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: auto;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
 `;
 
 export default ({ data }) => (
