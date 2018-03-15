@@ -4,6 +4,11 @@ import Link from "gatsby-link";
 import styled from "styled-components";
 import Popup from "../components/Popup";
 import Button from "../components/Button";
+import H1 from "../components/H1";
+
+const Paragraph = styled.p`
+  margin-bottom: 1rem;
+`;
 
 export default class About extends React.Component {
   constructor(props) {
@@ -25,8 +30,8 @@ export default class About extends React.Component {
   render() {
     return (
       <div>
-        <h1>About {this.props.data.site.siteMetadata.title}</h1>
-        <p>
+        <H1>About {this.props.data.site.siteMetadata.title}</H1>
+        <Paragraph>
           Luke Skywalker has returned to his home planet of Tatooine in an
           attempt to rescue his friend Han Solo from the clutches of the vile
           gangster Jabba the Hutt. Little does Luke know that the GALACTIC
@@ -34,7 +39,7 @@ export default class About extends React.Component {
           even more powerful than the first dreaded Death Star. When completed,
           this ultimate weapon will spell certain doom for the small band of
           rebels struggling to restore freedom to the galaxy...
-        </p>
+        </Paragraph>
 
         <Button onClick={this.onTogglePopup}>Open popup</Button>
 

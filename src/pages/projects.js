@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "gatsby-link";
+import H1 from "../components/H1";
 
 const ProjectsPage = () => (
   <div>
-    <h1>Projects</h1>
+    <H1>Projects</H1>
   </div>
 );
 

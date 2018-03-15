@@ -24,6 +24,10 @@ const Popup = styled.div`
   h1 {
     margin: 0 0 0.75rem 0;
   }
+
+  p {
+    margin-bottom: 1rem;
+  }
 `;
 
 export default ({ onClose }) => (
