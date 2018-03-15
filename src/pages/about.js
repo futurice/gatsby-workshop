@@ -8,6 +8,8 @@ import H1 from "../components/H1";
 
 const Paragraph = styled.p`
   margin-bottom: 1rem;
+  line-height: 150%;
+  font-size: 18px;
 `;
 
 export default class About extends React.Component {

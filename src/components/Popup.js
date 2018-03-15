@@ -27,6 +27,8 @@ const Popup = styled.div`
 
   p {
     margin-bottom: 1rem;
+    line-height: 150%;
+    font-size: 18px;
   }
 `;
 
