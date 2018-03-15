@@ -61,6 +61,7 @@ const PostDate = styled.small`
 const PostExcerpt = styled.p`
   margin-bottom: 0.5rem;
   font-size: 14px;
+  line-height: 135%;
 `;
 
 const PostMeta = styled.div`
