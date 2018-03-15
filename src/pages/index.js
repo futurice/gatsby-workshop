@@ -24,10 +24,16 @@ const Card = styled(Link)`
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   color: #333;
+  transition: 0.1s all;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `;
 
 const CardImage = styled.div`
   position: relative;
+  z-index: 10;
   height: 10rem;
   background-size: cover;
   background-position: 50% 50%;
@@ -40,22 +46,27 @@ const CardContent = styled.div`
 
 const PostHeader = styled.h3`
   position: absolute;
+  z-index: 20;
   bottom: 0;
+  left: 0;
+  right: 0;
   padding: 1rem;
   color: white;
 
-  /* &:after {
+  &:after {
     content: "";
     position: absolute;
-    top: 0;
+    z-index: -1;
+    bottom: 0;
     left: 0;
     right: 0;
+    height: 5rem;
     background-image: linear-gradient(
-      from top,
-      rgba(0, 0, 0, 0.4),
+      to top,
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0)
     );
-  } */
+  }
 `;
 
 const PostDate = styled.small`
@@ -89,7 +100,6 @@ const PostTags = styled.span`
 
 export default ({ data }) => (
   <div>
-    {/* <HeroImage src={headerImage} alt="Hero Image" /> */}
     <PostCount>{data.allMarkdownRemark.totalCount} posts</PostCount>
     <CardGrid>
       {data.allMarkdownRemark.edges.map(({ node }) => (
