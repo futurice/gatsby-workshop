@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const PostImage = styled.div`
   margin: 2rem 0 1rem 0;
@@ -63,6 +63,8 @@ const PostTags = styled.span`
 const MainContent = styled.div`
   p {
     margin-bottom: 1rem;
+    line-height: 150%;
+    font-size: 18px;
   }
 `;
 
@@ -79,8 +81,8 @@ export default ({ data }) => {
         <PostHeader>{post.frontmatter.title}</PostHeader>
       </PostImage>
       <PostMeta>
-          <PostDate>{post.frontmatter.date}</PostDate>
-          <PostTags>{post.frontmatter.tags}</PostTags>
+        <PostDate>{post.frontmatter.date}</PostDate>
+        <PostTags>{post.frontmatter.tags}</PostTags>
       </PostMeta>
       <MainContent dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
