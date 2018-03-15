@@ -1,6 +1,8 @@
 ---
 title: "Pöhinää!!1"
 date: "2018-03-12"
+thumbnailUrl: "http://www.fillmurray.com/500/302"
+tags: "buzz"
 ---
 
 Oltiin eilen Startup Saunalla Ens.ion (CEO) ja #Bo-Kristerin (CTO&COO) kaa,

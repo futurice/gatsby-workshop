@@ -1,6 +1,8 @@
 ---
 title: "ROTJ"
-date: "1982-10-10"
+date: "1983-08-19"
+thumbnailUrl: "http://www.fillmurray.com/500/305"
+tags: "ewoks"
 ---
 
 "Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.

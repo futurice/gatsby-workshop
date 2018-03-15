@@ -1,6 +1,8 @@
 ---
 title: "Empire Strikes Back"
-date: "1980-10-10"
+date: "1980-08-15"
+thumbnailUrl: "http://www.fillmurray.com/500/304"
+tags: "hothandcold"
 ---
 
 "It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.

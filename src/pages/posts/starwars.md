@@ -1,6 +1,8 @@
 ---
 title: "A New Hope"
-date: "1977-10-10"
+date: "1977-12-16"
+thumbnailUrl: "http://www.fillmurray.com/500/303"
+tags: "foo2"
 ---
 
 It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet.

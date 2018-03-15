@@ -4,6 +4,7 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <div>
+      <img src={post.frontmatter.thumbnailUrl} alt={post.frontmatter.title} />
       <h1>{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
@@ -16,6 +17,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        thumbnailUrl
       }
     }
   }
