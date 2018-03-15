@@ -1,16 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const PostImage = styled.div`
-  margin: 2rem 0 1rem 0;
-  width: 100%;
-  height: 20rem;
-  position: relative;
-  z-index: 10;
-  background-size: cover;
-  background-position: 50% 50%;
-`;
-
 const PostHeader = styled.h1`
   position: absolute;
   z-index: 20;
@@ -73,13 +63,7 @@ export default ({ data }) => {
 
   return (
     <div>
-      <PostImage
-        style={{
-          backgroundImage: `url(${post.frontmatter.thumbnailUrl})`
-        }}
-      >
-        <PostHeader>{post.frontmatter.title}</PostHeader>
-      </PostImage>
+      <PostHeader>{post.frontmatter.title}</PostHeader>
       <PostMeta>
         <PostDate>{post.frontmatter.date}</PostDate>
         <PostTags>{post.frontmatter.tags}</PostTags>
@@ -95,9 +79,6 @@ export const query = graphql`
       html
       frontmatter {
         title
-        thumbnailUrl
-        tags
-        date(formatString: "DD.M.YYYY")
       }
     }
   }
